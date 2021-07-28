@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" android:layout_marginBottom="-80dp"
+        app:srcCompat="@drawable/eufinityicon" />
+    <LinearLayout android:gravity="center_horizontal"
+        android:layout_width="match_parent" android:orientation="vertical"
+        android:layout_height="0dp" android:layout_weight="0.52">
+        <TextView android:layout_marginBottom="45dp"
+            android:layout_width="match_parent" android:textSize="70sp"
+            android:fontFamily="@font/matthan_sans_regular" android:textStyle="bold|italic"
+            android:textAlignment="center" android:textScaleX="1.4"
+            android:text="Eufinity" android:textAllCaps="true" android:layout_height="wrap_content"/>
+
+        <com.eufinitywellness.android.CustomElements.EufinityThemeButton
+            android:id="@+id/loginbutton"
+            android:layout_width="200dp" app:buttonText="LOG IN"
+            android:layout_height="50dp" android:layout_marginBottom="10dp"/>
+        <com.eufinitywellness.android.CustomElements.EufinityThemeButton
+            android:id="@+id/signupbutton"
+            android:layout_width="200dp" app:buttonText="SIGN UP"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+</LinearLayout>

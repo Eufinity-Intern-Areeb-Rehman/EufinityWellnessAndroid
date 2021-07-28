@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "842579754678",
+    "project_id": "eufinity-wellness-28442",
+    "storage_bucket": "eufinity-wellness-28442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842579754678:android:7ed9a4ec1c677b31f63017",
+        "android_client_info": {
+          "package_name": "com.eufinitywellness.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842579754678-ponthss2liqh2hrqngc3s45hsful9trh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYf0jcbUAByTF17UWVTzfAn0kQ4m92di0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842579754678-ponthss2liqh2hrqngc3s45hsful9trh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "842579754678-h6m8etvugab974le2ag9tojgiv74q6ii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.EW.EufinityWellness"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
